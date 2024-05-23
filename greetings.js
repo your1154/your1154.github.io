@@ -25,4 +25,5 @@ if(savedUsername === null) {
     loginForm.addEventListener("submit", onLoginSubmit);
 } else {
     paintGreetings(savedUsername);
+    localStorage.clear();
 }
